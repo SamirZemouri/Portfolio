@@ -1,0 +1,23 @@
+
+@media only screen and (min-width: 992px) {
+    .container{
+        min-width: 0;
+    }
+    a.primary-small-button {
+        margin-bottom: 0px;
+    }
+    .navbar-collapse{
+        background-color: transparent;
+        transition:none!important;
+        flex-grow: 0;
+
+    }
+    .navbar-nav{
+        align-items: center;
+        justify-content: center;
+    }
+    #navbarNav{
+        position: static;
+        width: auto;
+    }
+ }

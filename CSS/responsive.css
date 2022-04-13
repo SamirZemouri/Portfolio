@@ -2,7 +2,36 @@
     .container {
         min-width: 0;
     }
-
+    .bubble{
+        margin: 0!important;
+    }
+    .bubble1{
+        margin-top: 85px!important;
+        margin-right: 330px!important;
+        justify-content: center;
+    }
+    .bubble1 img{
+        width: 55px!important;
+    }
+    .bubble2{
+        margin-top: 250px!important;
+        margin-left: 440px!important;
+    }
+    .bubble2 img{
+        width: 81px!important;
+        height: 81px!important;
+    }
+    .bubble3{
+        margin-top: -50px!important;
+        justify-content:unset;
+    }
+    .bubble3 img{
+        width: 150px!important;
+        height: 150px!important;
+    }
+    h1{
+        width: 100%!important;
+    }
     a.primary-small-button {
         margin-bottom: 0px;
     }
@@ -35,6 +64,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .container-fluid{
+        font-size: 20px;
     }
 
     h1 {

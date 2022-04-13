@@ -18,26 +18,27 @@ li{
   }
   
   .nav-link {
-    color: black;
+    color: #c2c1c1!important;
   }
   .nav-link:hover {
-    color: #714aff !important;
+    color: #B6974D !important;
   }
   
   a.primary-small-button {
-    background-color: #714aff; 
+    background-color: #B6974D; 
      width: 130px;
     color: #fff !important;
     border-radius: 500px;
-    border: 1px solid;
+    border: 2px solid;
+    border-color: #B6974D;
     padding: 10px 24px;
     margin: auto;
   
   }
   .primary-small-button:hover {
     background-color: transparent;
-    border-color: #714aff;
-    color: black !important;
+    border-color: #B6974D;
+    color: #B6974D!important;
   }
   .navbar-collapse {
     text-align: center;

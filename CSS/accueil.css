@@ -1,11 +1,8 @@
 header {
-  height: 100%;
   color: #c2c1c1;
 }
 .accueil {
   width: 100%;
-  position: absolute;
-  top: 150px;
 }
 
 .description {
@@ -41,13 +38,13 @@ h4 {
   color: #B6974D;
 }
 .avatar {
-  width: 250;
-  height: 220px;
+  height: 285px;
 }
 .bubble {
   display: flex;
   /* width: 100%; */
   flex-direction: column;
+  display: none;
 }
 .bubble1 {
   justify-content: flex-end;

@@ -24,6 +24,10 @@ body {
   padding-right: 0px;
 }
 
+h1{
+  font-weight: 700;
+}
+
 /* Ghost CSS 
 * {
   background: #000 !important;

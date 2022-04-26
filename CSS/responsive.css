@@ -1,4 +1,4 @@
-/*----------------------Mobile Responsive---------------------- */
+/*----------------------Tablette Responsive---------------------- */
 @media only screen and (min-width: 768px) {
     .avatar {
         height: 320px;
@@ -33,6 +33,8 @@
         margin-top: 70px;
     }
 
+    /*----------------------Bulles Responsive---------------------- */
+
     .bubble {
         margin: 0 80px 0 80px;
     }
@@ -65,6 +67,18 @@
         height: 70px;
     }
 
+    /*----------------------Compétences Responsive---------------------- */
+    .competences{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .competence1, .competence2, .competence3, .competence4{
+        width: 47%;
+        margin-left: 14px;
+    }
+
+
+
 
 }
 /*----------------------Nav Responsive---------------------- */
@@ -75,8 +89,8 @@
     .logo-icon{
         width: 80px;
     }
-    header{
-        margin-top: 70px;
+    .accueil{
+        margin-top: 160px;
     }
     .bubble{
         margin: 0!important;
@@ -152,6 +166,10 @@
 
 }
 
+
+/*----------------------Desktop Responsive---------------------- */
+
+
 @media only screen and (min-width: 1920px) {
     .accueil{
         justify-content: space-around;
@@ -174,17 +192,32 @@
         justify-content: space-between;
     }
     .container-fluid{
-        font-size: 16px;
+        font-size: 22px;
+    }
+    .competences{
+        flex-wrap: nowrap;
+    }
+    .competence1, .competence2, .competence3, .competence4{
+        margin-left: 30px;
     }
     .logo-icon{
-        width: 65px;
+        width: 75px;
+    }
+    .description h1{
+        width: 600px!important;
+    }
+    .img{
+        margin-right: 100px;
+    }
+    .navbar-nav{
+        margin-right: 15px;
     }
 
 
 }
 
 @media only screen and (min-width: 1000px) {
-    h1{
+    .description h1{
        width: 600px!important;
     }
     h4{

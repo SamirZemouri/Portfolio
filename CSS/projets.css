@@ -1,15 +1,13 @@
-.competences{
+.projets{
     padding-right: 15px;
     padding-left: 15px;
 }
 
-.iconify{
-    width: 40px;
-    height: 40px;
-    color: #B6974D;
-}
 
-.competence1, .competence2, .competence3, .competence4{
+
+
+
+.projet1, .projet2, .projet3, .projet4{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,32 +21,15 @@
     box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
 }
 
-.code, .respon, .pencil, .bonus{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70px;
-    height: 70px;
-    border-radius: 150px;
-    background: #eec567;
-}
-
-.comp h1{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin: 85px 0px 40px 0px;
-}
-
 /* --------------- 1er section --------------- */
 
 
 
-.competence1 h3{
+.projet1 h3{
     margin-top: 20px;
     margin-bottom: 14px;
 }
-.competence1 p{
+.projet1 p{
     text-align: center;
     margin-bottom: 10px;
 }
@@ -57,11 +38,11 @@
 /*--------------- 2eme section --------------- */
 
 
-.competence2 h3{
+.projet2 h3{
     margin-top: 20px;
     margin-bottom: 14px;
 }
-.competence2 p{
+.projet2 p{
     text-align: center;
     margin-bottom: 10px;
 }
@@ -70,30 +51,23 @@
 /*--------------- 3eme section --------------- */
 
 
-.competence3 h3{
+.projet3 h3{
     margin-top: 20px;
     margin-bottom: 14px;
 }
-.competence3 p{
+.projet3 p{
     text-align: center;
     margin-bottom: 10px;
 }
 
 /*--------------- 4eme section --------------- */
 
-.competence4 h3 {
+.projet4 h3 {
     margin-top: 20px;
     margin-bottom: 14px;
 }
 
-.competence4 p{
+.projet4 p{
     text-align: center;
     margin-bottom: 10px;
 }
-
-
-
-
-
-
-

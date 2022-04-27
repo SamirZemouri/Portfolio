@@ -24,7 +24,10 @@
 /* --------------- 1er section --------------- */
 
 .projet1 {
-    background-image: url(../assets/Images/Projet_Restaurant.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6)), url(../assets/Images/Projet_Restaurant.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
 }
 
 .projet1 h3{

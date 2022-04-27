@@ -23,14 +23,16 @@
 
 /* --------------- 1er section --------------- */
 
-
+.projet1 {
+    background-image: url(../assets/Images/Projet_Restaurant.png);
+}
 
 .projet1 h3{
     margin-bottom: 14px;
 }
 .projet1 p{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 
@@ -43,7 +45,7 @@
 }
 .projet2 p{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 
@@ -56,7 +58,7 @@
 }
 .projet3 p{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 /*--------------- 4eme section --------------- */
@@ -68,5 +70,25 @@
 
 .projet4 p{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
+
+/*--------------- Boutton Projet --------------- */
+
+
+a.btn-projet{
+    background-color: #B6974D; 
+     width: 143px;
+    color: #fff !important;
+    border-radius: 500px;
+    border: 2px solid;
+    border-color: #B6974D;
+    padding: 10px 24px;
+    margin: auto;
+  }
+
+  .btn-projet:hover{
+    background-color: transparent;
+    border-color: #B6974D;
+    color: #B6974D!important;
+  }

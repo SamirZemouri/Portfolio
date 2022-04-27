@@ -3,7 +3,8 @@
     .avatar {
         height: 320px;
     }
-    .logo-icon{
+
+    .logo-icon {
         width: 100px;
     }
 
@@ -11,9 +12,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .container-fluid{
-        font-size: 20px;
     }
 
     h1 {
@@ -28,7 +26,7 @@
     }
 
     a.btn-primary {
-        width: 30% !important;
+        max-width: 190px !important;
         font-size: 20px;
         margin-top: 70px;
     }
@@ -58,78 +56,107 @@
         width: 170px;
         height: 170px;
     }
-    .bubble3{
+
+    .bubble3 {
         margin-top: 150px;
 
     }
-    .bubble3 img{
+
+    .bubble3 img {
         width: 70px;
         height: 70px;
     }
 
-    /*----------------------Compétences Responsive---------------------- */
-    .competences{
-       display: flex;
-       flex-wrap: wrap;
+    .navbar-nav {
+        font-weight: 700;
     }
-    .competence1, .competence2, .competence3, .competence4{
+
+    .navbar-collapse {
+        background-color: #141414;
+    }
+
+    /*----------------------Compétences Responsive---------------------- */
+    .competences {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .competence1,
+    .competence2,
+    .competence3,
+    .competence4 {
         width: 47%;
         margin-left: 14px;
     }
 
     /*----------------------Mes Projets Responsive---------------------- */
 
-    .projets{
+    .projets {
         display: flex;
         flex-wrap: wrap;
-     }
-     .projet1, .projet2, .projet3, .projet4{
-         width: 47%;
-         margin-left: 14px;
-     }
+    }
+
+    .projet1,
+    .projet2,
+    .projet3,
+    .projet4 {
+        width: 47%;
+        margin-left: 14px;
+    }
 
 
 
 
 }
+
 /*----------------------Nav Responsive---------------------- */
 @media only screen and (min-width: 992px) {
     .container {
         min-width: 0;
     }
-    .logo-icon{
+
+    .logo-icon {
         width: 80px;
     }
-    .accueil{
-        margin-top: 160px;
+
+    .accueil {
+        margin-top: 130px;
     }
-    .bubble{
-        margin: 0!important;
+
+    .bubble {
+        margin: 0 !important;
     }
-    .bubble1{
-        margin-top: 85px!important;
-        margin-right: 330px!important;
+
+    .bubble1 {
+        margin-top: 85px !important;
+        margin-right: 330px !important;
         justify-content: center;
     }
-    .bubble2{
-        margin-top: 250px!important;
-        margin-left: 440px!important;
+
+    .bubble2 {
+        margin-top: 250px !important;
+        margin-left: 440px !important;
     }
-    .bubble2 img{
-        width: 81px!important;
-        height: 81px!important;
+
+    .bubble2 img {
+        width: 81px !important;
+        height: 81px !important;
     }
-    .bubble3{
-        margin-top: -50px!important;
-        justify-content:unset;
+
+    .bubble3 {
+        margin-top: -50px !important;
+        justify-content: unset;
     }
-    .bubble3 img{
-        width: 150px!important;
-        height: 150px!important;
+
+    .bubble3 img {
+        width: 150px !important;
+        height: 150px !important;
     }
-    h1{
-        width: 100%!important;
+
+    h1 {
+        width: 100% !important;
     }
+
     a.primary-small-button {
         margin-bottom: 0px;
     }
@@ -151,27 +178,34 @@
         width: auto;
     }
 }
+
 /*----------------------Accueil Responsive---------------------- */
 @media only screen and (min-width: 992px) {
-    .description{
+    .description {
         align-items: unset;
     }
-    a.btn-primary{
-        width: 45%!important;
+
+    a.btn-primary {
+        max-width: 190px !important;
     }
-    .avatar{
-        height:350px;
+
+    .avatar {
+        height: 350px;
     }
-    .img{
+
+    .img {
         margin-right: 30px;
     }
-    .flex-column{
-        flex-direction: row-reverse!important;
+
+    .flex-column {
+        flex-direction: row-reverse !important;
     }
-    h1{
-        text-align:left;
+
+    h1 {
+        text-align: left;
     }
-    h4{
+
+    h4 {
         text-align: justify;
     }
 
@@ -182,14 +216,16 @@
 
 
 @media only screen and (min-width: 1920px) {
-    .accueil{
+    .accueil {
         justify-content: space-around;
     }
-    .description{
+
+    .description {
         width: 47%;
         margin-left: 15px;
     }
-    .img{
+
+    .img {
         margin-right: 100px;
     }
 
@@ -199,48 +235,103 @@
 }
 
 @media only screen and (min-width: 1600px) {
-    .accueil{
+    .accueil {
         justify-content: space-between;
     }
-    .container-fluid{
-        font-size: 22px;
+
+    .container-fluid {
+        font-size: 16px;
     }
-    .competences{
+
+    .competences {
         flex-wrap: nowrap;
     }
-    .competence1, .competence2, .competence3, .competence4{
+
+    .competence2,
+    .competence3,
+    .competence4 {
         margin-left: 30px;
     }
 
-    .projets{
+    .projets {
         flex-wrap: nowrap;
     }
-    .projet1, .projet2, .projet3, .projet4{
+
+    .projet1,
+    .projet2,
+    .projet3,
+    .projet4 {
         margin-left: 30px;
     }
-    .logo-icon{
-        width: 75px;
+
+    .logo-icon {
+        width: 70px;
     }
-    .description h1{
-        width: 600px!important;
+
+    .description h1 {
+        width: 600px !important;
     }
-    .img{
+
+    .img {
         margin-right: 100px;
     }
-    .navbar-nav{
+
+    .navbar-nav {
         margin-right: 15px;
     }
 
-
-}
-
-@media only screen and (min-width: 1000px) {
-    .description h1{
-       width: 600px!important;
+    h1 {
+        font-size: 40px;
     }
-    h4{
-        width: 500px!important;
-    }
-    
 
+    h4 {
+        font-size: 20px;
+    }
+
+    .competences {
+        margin-left: 0px !important;
+    }
+
+    .competence1 {
+        margin-left: 0px;
+
+
+
+    }
 }
+    @media only screen and (min-width: 1000px) {
+        .description h1 {
+            width: 600px !important;
+        }
+
+        h4 {
+            width: 500px !important;
+        }
+
+        .navbar-nav {
+            font-weight: 400;
+        }
+
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .nav-link {
+            color: #e3e3e3 !important;
+        }
+
+    }
+
+    @media only screen and (min-width: 1400px) {
+
+        /* .container{
+        max-width: 1260px;
+    } */
+        .container {
+            max-width: 1140px;
+        }
+
+        .competences {
+            margin-left: 14px;
+        }
+
+    }

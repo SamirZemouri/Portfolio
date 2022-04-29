@@ -1,4 +1,4 @@
-.projets {
+.projets{
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -7,10 +7,7 @@
 
 
 
-.projet1,
-.projet2,
-.projet3,
-.projet4 {
+.projet1, .projet2, .projet3, .projet4{
     min-height: 300px;
     display: flex;
     flex-direction: column;
@@ -28,24 +25,24 @@
 /* --------------- 1er section --------------- */
 
 .projet1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6)), url(../assets/Images/Projet_Restaurant.png);
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0)), url(../assets/Images/Projet_Restaurant.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:center;
+    opacity: 1;
+}
+/* .hover{
+    background:  linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6)), url(../assets/Images/Projet_Restaurant.png);
+} */
+.content-hover{
+    display: none;
 }
 
-.projet1bis{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.projet1 h3 {
+.projet1 h3{
     margin-top: 30px;
     margin-bottom: 14px;
 }
-
-.projet1 p {
+.projet1 p{
     text-align: center;
     margin-bottom: 25px;
 }
@@ -57,15 +54,13 @@
     background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6)), url(../assets/Images/Projet_Github.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:center;
 }
-
-.projet2 h3 {
+.projet2 h3{
     margin-top: 20px;
     margin-bottom: 14px;
 }
-
-.projet2 p {
+.projet2 p{
     text-align: center;
     margin-bottom: 25px;
 }
@@ -74,12 +69,11 @@
 /*--------------- 3eme section --------------- */
 
 
-.projet3 h3 {
+.projet3 h3{
     margin-top: 20px;
     margin-bottom: 14px;
 }
-
-.projet3 p {
+.projet3 p{
     text-align: center;
     margin-bottom: 25px;
 }
@@ -91,7 +85,7 @@
     margin-bottom: 14px;
 }
 
-.projet4 p {
+.projet4 p{
     text-align: center;
     margin-bottom: 25px;
 }
@@ -115,50 +109,48 @@ a.btn-projet{
     color: #B6974D!important;
   } */
 
-.btn-projet {
-    background-color: transparent;
-    width: 143px;
+  .btn-projet{
+    background-color: transparent; 
+     width: 143px;
     color: #ffd36c !important;
     border-radius: 500px;
     border: 2px solid;
     border-color: #dfb960;
     padding: 10px 24px;
-}
+  }
 
-.btn-projet:hover {
+  .btn-projet:hover{
     background-color: #B6974D;
     border-color: #B6974D;
-    color: #fff !important;
-}
+    color: #fff!important;
+  }
 
-
-.btn-projet2 {
-    background-color: #B6974D;
-    width: 143px;
+  
+.btn-projet2{
+    background-color: #B6974D; 
+     width: 143px;
     color: #fff !important;
     border-radius: 500px;
     border: 2px solid;
     border-color: #B6974D;
     padding: 10px 24px;
-}
+  }
 
-.btn-projet2:hover {
+  .btn-projet2:hover{
     background-color: transparent;
     border-color: #B6974D;
-    color: #B6974D !important;
-}
+    color: #B6974D!important;
+  }
 
-.btn-projet3 {
-    background-color: #B6974D;
-    ;
+  .btn-projet3 {
+    background-color: #B6974D;;
     color: #e1e1e1 !important;
     border-radius: 500px;
     margin-top: 30px;
     padding: 10px 24px;
-    width: 143px !important;
-}
-
-.btn-projet3:hover {
+    width: 143px!important;
+  }
+  .btn-projet3:hover {
     background-color: #dfb960;
-    color: #fff !important;
-}
+    color: #fff!important;
+  }

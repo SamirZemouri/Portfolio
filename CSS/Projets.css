@@ -1,93 +1,158 @@
-.projets{
-    padding-right: 15px;
-    padding-left: 15px;
+.projets {
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 
 
 
 
-.projet1, .projet2, .projet3, .projet4{
-    min-height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    background: #2e2a29;
-    border-radius: 20px;
-    padding: 30px 14px;
-    margin-bottom: 15px;
-    border: 1px solid #eec567;
-    box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
+.projet1,
+.projet2,
+.projet3,
+.projet4 {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #2e2a29;
+  border-radius: 20px;
+  padding: 30px 14px;
+  margin-bottom: 15px;
+  border: 1px solid #eec567;
+  box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
 }
 
 /* --------------- 1er section --------------- */
 
 .projet1 {
-    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0)), url(../assets/Images/Projet_Restaurant.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    opacity: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0)), url(../assets/Images/Projet_Restaurant.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-/* .hover{
-    background:  linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6)), url(../assets/Images/Projet_Restaurant.png);
-} */
-.content-hover{
-    display: none;
+.zoom{
+  overflow: hidden;
+  transition: transform .9s ease;
+
+}
+.zoom:hover{
+  transform: scale(1.2);
 }
 
-.projet1 h3{
-    margin-top: 30px;
-    margin-bottom: 14px;
+.flitre{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  border-radius: 20px;
+  opacity: 0;
 }
-.projet1 p{
-    text-align: center;
-    margin-bottom: 25px;
+.flitre:hover{
+  opacity: 100;
+}
+
+.bg{
+  transition: ease-out 0.5s;
+}
+.bg:hover{
+  background: linear-gradient(10deg, rgba(0, 0, 0, 0.8), rgba(63, 63, 63, 0.5));
+  transition: ease-in 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .projet1:hover{
+  background:  linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6)), url(../assets/Images/Projet_Restaurant.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  transition: all 20s;
+
+} */
+/* *.hover{
+     background:  linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6)), url(../assets/Images/Projet_Restaurant.png); */
+/* background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+ }
+/* .content-hover{
+    display: none;
+} */
+
+.projet1 h3 {
+  margin-top: 30px;
+  margin-bottom: 14px;
+}
+
+.projet1 p {
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 
 /*--------------- 2eme section --------------- */
 
 .projet2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6)), url(../assets/Images/Projet_Github.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6)), url(../assets/Images/Projet_Github.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.projet2 h3{
-    margin-top: 20px;
-    margin-bottom: 14px;
+
+.projet2 h3 {
+  margin-top: 20px;
+  margin-bottom: 14px;
 }
-.projet2 p{
-    text-align: center;
-    margin-bottom: 25px;
+
+.projet2 p {
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 
 /*--------------- 3eme section --------------- */
 
 
-.projet3 h3{
-    margin-top: 20px;
-    margin-bottom: 14px;
+.projet3 h3 {
+  margin-top: 20px;
+  margin-bottom: 14px;
 }
-.projet3 p{
-    text-align: center;
-    margin-bottom: 25px;
+
+.projet3 p {
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 /*--------------- 4eme section --------------- */
 
 .projet4 h3 {
-    margin-top: 20px;
-    margin-bottom: 14px;
+  margin-top: 20px;
+  margin-bottom: 14px;
 }
 
-.projet4 p{
-    text-align: center;
-    margin-bottom: 25px;
+.projet4 p {
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 /*--------------- Boutton Projet --------------- */
@@ -109,48 +174,50 @@ a.btn-projet{
     color: #B6974D!important;
   } */
 
-  .btn-projet{
-    background-color: transparent; 
-     width: 143px;
-    color: #ffd36c !important;
-    border-radius: 500px;
-    border: 2px solid;
-    border-color: #dfb960;
-    padding: 10px 24px;
-  }
+.btn-projet {
+  background-color: transparent;
+  width: 143px;
+  color: #ffd36c !important;
+  border-radius: 500px;
+  border: 2px solid;
+  border-color: #dfb960;
+  padding: 10px 24px;
+}
 
-  .btn-projet:hover{
-    background-color: #B6974D;
-    border-color: #B6974D;
-    color: #fff!important;
-  }
+.btn-projet:hover {
+  background-color: #B6974D;
+  border-color: #B6974D;
+  color: #fff !important;
+}
 
-  
-.btn-projet2{
-    background-color: #B6974D; 
-     width: 143px;
-    color: #fff !important;
-    border-radius: 500px;
-    border: 2px solid;
-    border-color: #B6974D;
-    padding: 10px 24px;
-  }
 
-  .btn-projet2:hover{
-    background-color: transparent;
-    border-color: #B6974D;
-    color: #B6974D!important;
-  }
+.btn-projet2 {
+  background-color: #B6974D;
+  width: 143px;
+  color: #fff !important;
+  border-radius: 500px;
+  border: 2px solid;
+  border-color: #B6974D;
+  padding: 10px 24px;
+}
 
-  .btn-projet3 {
-    background-color: #B6974D;;
-    color: #e1e1e1 !important;
-    border-radius: 500px;
-    margin-top: 30px;
-    padding: 10px 24px;
-    width: 143px!important;
-  }
-  .btn-projet3:hover {
-    background-color: #dfb960;
-    color: #fff!important;
-  }
+.btn-projet2:hover {
+  background-color: transparent;
+  border-color: #B6974D;
+  color: #B6974D !important;
+}
+
+.btn-projet3 {
+  background-color: #B6974D;
+  ;
+  color: #e1e1e1 !important;
+  border-radius: 500px;
+  margin-top: 30px;
+  padding: 10px 24px;
+  width: 143px !important;
+}
+
+.btn-projet3:hover {
+  background-color: #dfb960;
+  color: #fff !important;
+}

@@ -25,6 +25,10 @@ a.btn-primary {
 a.btn-primary:hover {
   background-color: #B6974D;
 }
+a.btn-primary:focus{
+  background-color:#B6974D!important;
+  border-color: #B6974D!important;
+}
 
 .description h1 {
   margin: 30px 0px 50px 0px;

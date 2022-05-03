@@ -1,6 +1,6 @@
 .competences{
-    padding-right: 15px;
-    padding-left: 15px;
+display: flex;
+justify-content: space-between;
 }
 
 .iconify{

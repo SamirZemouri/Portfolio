@@ -11,7 +11,7 @@
 .projet2,
 .projet3,
 .projet4 {
-  min-height: 300px;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,30 +19,28 @@
   color: #fff;
   background: #2e2a29;
   border-radius: 20px;
-  padding: 30px 14px;
   margin-bottom: 15px;
   border: 1px solid #eec567;
   box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
 }
 
-/* --------------- 1er section --------------- */
-
-.projet1 {
-  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0)), url(../assets/Images/Projet_Restaurant.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.ProjetImages{
+  width: 101%;
 }
+
 .zoom{
   overflow: hidden;
-  transition: transform .9s ease;
-
 }
-.zoom:hover{
+
+.zoom .ImgZoom {
+  transition: transform .9s ease;
+}
+
+.zoom:hover .ImgZoom{
   transform: scale(1.2);
 }
 
-.flitre{
+.filtre{
   width: 100%;
   height: 100%;
   display: flex;
@@ -53,51 +51,22 @@
   border-radius: 20px;
   opacity: 0;
 }
-.flitre:hover{
+
+.filtre:hover{
   opacity: 100;
 }
 
 .bg{
   transition: ease-out 0.5s;
 }
+
 .bg:hover{
   background: linear-gradient(10deg, rgba(0, 0, 0, 0.8), rgba(63, 63, 63, 0.5));
   transition: ease-in 0.3s;
 }
+/* --------------- 1er section --------------- */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .projet1:hover{
-  background:  linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6)), url(../assets/Images/Projet_Restaurant.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center;
-  transition: all 20s;
-
-} */
-/* *.hover{
-     background:  linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6)), url(../assets/Images/Projet_Restaurant.png); */
-/* background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center; 
- }
-/* .content-hover{
-    display: none;
-} */
 
 .projet1 h3 {
   margin-top: 30px;
@@ -111,13 +80,6 @@
 
 
 /*--------------- 2eme section --------------- */
-
-.projet2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6)), url(../assets/Images/Projet_Github.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
 
 .projet2 h3 {
   margin-top: 20px;

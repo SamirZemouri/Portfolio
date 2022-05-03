@@ -85,8 +85,7 @@
     .competence2,
     .competence3,
     .competence4 {
-        width: 47%;
-        margin-left: 14px;
+        width: 49%;
     }
 
     /*----------------------Mes Projets Responsive---------------------- */
@@ -328,10 +327,6 @@
     } */
         .container {
             max-width: 1140px;
-        }
-
-        .competences {
-            margin-left: 14px;
         }
 
     }

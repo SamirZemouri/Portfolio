@@ -1,6 +1,8 @@
 .projets {
-  padding-right: 15px;
-  padding-left: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
 }
 
 
@@ -12,6 +14,7 @@
 .projet3,
 .projet4 {
   position: relative;
+  width: 96%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,15 +23,16 @@
   background: #2e2a29;
   border-radius: 20px;
   margin-bottom: 15px;
+  margin-left: 0px;
   border: 1px solid #eec567;
   box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
 }
 
-.ProjetImages{
+.ProjetImages {
   width: 101%;
 }
 
-.zoom{
+.zoom {
   overflow: hidden;
 }
 
@@ -36,11 +40,10 @@
   transition: transform .9s ease;
 }
 
-.zoom:hover .ImgZoom{
-  transform: scale(1.2);
+.zoom:hover .ImgZoom {
 }
 
-.filtre{
+.filtre {
   width: 100%;
   height: 100%;
   display: flex;
@@ -49,21 +52,17 @@
   flex-direction: column;
   position: absolute;
   border-radius: 20px;
-  opacity: 0;
 }
 
-.filtre:hover{
+.filtre:hover {
   opacity: 100;
 }
 
-.bg{
+.bg {
+  background: linear-gradient(10deg, rgba(0, 0, 0, 0.8), rgba(63, 63, 63, 0.5));
   transition: ease-out 0.5s;
 }
 
-.bg:hover{
-  background: linear-gradient(10deg, rgba(0, 0, 0, 0.8), rgba(63, 63, 63, 0.5));
-  transition: ease-in 0.3s;
-}
 /* --------------- 1er section --------------- */
 
 

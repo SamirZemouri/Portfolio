@@ -56,7 +56,6 @@ a.primary-small-button {
 }
 
 #navbarNav {
-  position: fixed;
   width: 100%;
   top: 110px;
   z-index: 1;

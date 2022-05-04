@@ -15,6 +15,7 @@
 .projet4 {
   position: relative;
   width: 96%;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -143,42 +144,11 @@ a.btn-projet{
   border: 2px solid;
   border-color: #dfb960;
   padding: 10px 24px;
+  margin-bottom: 20px;
 }
 
 .btn-projet:hover {
   background-color: #B6974D;
   border-color: #B6974D;
-  color: #fff !important;
-}
-
-
-.btn-projet2 {
-  background-color: #B6974D;
-  width: 143px;
-  color: #fff !important;
-  border-radius: 500px;
-  border: 2px solid;
-  border-color: #B6974D;
-  padding: 10px 24px;
-}
-
-.btn-projet2:hover {
-  background-color: transparent;
-  border-color: #B6974D;
-  color: #B6974D !important;
-}
-
-.btn-projet3 {
-  background-color: #B6974D;
-  ;
-  color: #e1e1e1 !important;
-  border-radius: 500px;
-  margin-top: 30px;
-  padding: 10px 24px;
-  width: 143px !important;
-}
-
-.btn-projet3:hover {
-  background-color: #dfb960;
   color: #fff !important;
 }

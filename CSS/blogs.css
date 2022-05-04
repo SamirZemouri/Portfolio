@@ -1,0 +1,115 @@
+.blogs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: auto;
+
+}
+
+
+.blog1,
+.blog2,
+.blog3,
+.blog4 {
+    position: relative;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #2e2a29;
+    border-radius: 20px;
+    margin-bottom: 35px;
+    margin-left: 0px;
+    border: 1px solid #eec567;
+    box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
+    padding: 24px 30px
+}
+
+/* --------------- 1er section --------------- */
+
+
+
+.blog1 h3 {
+    margin-top: 30px;
+    margin-bottom: 14px;
+    margin-right: 0px;
+}
+
+.blog1 p {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+
+/*--------------- 2eme section --------------- */
+
+.blog2 h3 {
+    margin-top: 30px;
+    margin-bottom: 14px;
+    margin-right: 0px;
+}
+
+.blog2 p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+/*--------------- 3eme section --------------- */
+
+
+.blog3 h3 {
+    margin-top: 30px;
+    margin-bottom: 14px;
+    margin-right: 0px;
+}
+
+.blog3 p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/*--------------- 4eme section --------------- */
+
+.blog4 h3 {
+    margin-top: 30px;
+    margin-bottom: 14px;
+    margin-right: 0px;
+}
+
+.blog4 p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.btn-blog {
+    background-color: transparent;
+    width: 143px;
+    color: #ffd36c !important;
+    border-radius: 500px;
+    border: 2px solid;
+    border-color: #dfb960;
+    padding: 10px 24px;
+    margin-bottom: 20px;
+}
+
+.btn-blog:hover {
+    background-color: #B6974D;
+    border-color: #B6974D;
+    color: #fff !important;
+}
+
+.blogImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.articleImg{
+    display: none;
+    width: 80px;
+    height: 80px;
+}

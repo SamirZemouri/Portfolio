@@ -1,5 +1,63 @@
-/* ----------------------Tablette Responsive---------------------- */
+/* ----------------------Fold Responsive---------------------- */
+@media only screen and (min-width:325px) {
+    .projet1, .projet2, .projet3, .projet4 {
+    height: auto!important;
+    }
+    .lab1, .lab2, .lab3, .lab4 {
+    height: auto!important;
+}
 
+
+
+/* ----------------------Tablette Responsive---------------------- */
+@media only screen and (min-width:560px) {
+
+    .projet1,
+    .projet2,
+    .projet3,
+    .projet4 {
+        width: 47%;
+    }
+
+    .projet2 p{
+        width: 70%;
+    }
+
+    .lab1,
+    .lab2,
+    .lab3{
+        width: 47%;
+    }
+
+    .lab1 p {
+        width: 90%;
+    }
+    .lab2 p{
+        width: 90%;
+    }
+
+    .blogs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    
+    
+    .blog1,
+    .blog2,
+    .blog3,
+    .blog4 {
+        position: relative;
+        width: 520px!important;
+        display: flex;
+        flex-direction: column!important;
+        justify-content: center!important;
+        align-items: center!important;
+
+    }
+}
 @media only screen and (min-width: 768px) {
     .avatar {
         height: 320px;
@@ -92,18 +150,32 @@
 
     /*----------------------Mes Projets Responsive---------------------- */
 
-    .projets {
+    /* .projets {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between!important;
 
-    }
+    } */
 
     .projet1,
     .projet2,
     .projet3,
     .projet4 {
         width: 48% !important;
+        margin-left: 14px;
+    }
+
+    /* .labs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between!important;
+
+    } */
+
+    .lab1,
+    .lab2,
+    .lab3 {
+        width: 32% !important;
         margin-left: 14px;
     }
 
@@ -212,97 +284,23 @@
         text-align: justify;
     }
 
+    .projets {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between!important;
+
+    }
+    .labs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between!important;
+
+    }
+
 }
 
 
 /*----------------------Desktop Responsive---------------------- */
-
-
-@media only screen and (min-width: 1920px) {
-    .accueil {
-        justify-content: space-around;
-    }
-
-    .description {
-        width: 47%;
-        margin-left: 15px;
-    }
-
-    .img {
-        margin-right: 100px;
-    }
-
-
-
-
-}
-
-@media only screen and (min-width: 1600px) {
-    .accueil {
-        justify-content: space-between;
-    }
-
-    .container-fluid {
-        font-size: 16px;
-    }
-
-    .competences {
-        flex-wrap: nowrap !important;
-    }
-
-    .competence2,
-    .competence3,
-    .competence4 {
-        margin-left: 30px;
-    }
-
-    .projets {
-        flex-wrap: nowrap !important;
-    }
-
-    .projet1,
-    .projet2,
-    .projet3,
-    .projet4 {
-        margin-left: 30px;
-    }
-
-    .logo-icon {
-        width: 70px;
-    }
-
-    .description h1 {
-        width: 600px !important;
-    }
-
-    .img {
-        margin-right: 100px;
-    }
-
-    .navbar-nav {
-        margin-right: 15px;
-    }
-
-    h1 {
-        font-size: 40px;
-    }
-
-    h4 {
-        font-size: 20px;
-    }
-
-    .competences {
-        margin-left: 0px !important;
-    }
-
-    .competence1 {
-        margin-left: 0px;
-
-
-
-    }
-}
-
 @media only screen and (min-width: 1000px) {
     .description h1 {
         width: 600px !important;
@@ -349,6 +347,49 @@
         background: linear-gradient(10deg, rgba(0, 0, 0, 0.8), rgba(63, 63, 63, 0.5));
         transition: ease-in 0.3s;
       }
+      .blogs {
+        justify-content: space-between!important;
+        flex-wrap: wrap!important;
+        width: auto!important;
+        flex-direction: unset!important;
+      }
+
+      .blog1,
+      .blog2,
+      .blog3,
+      .blog4 {
+          width: 49%!important;
+      }
+
+      .blogImg{
+        justify-content: space-between!important;
+
+    }
+
+      .blog1 h3 {
+        margin-top: 30px;
+        margin-bottom: 14px;
+        margin-right: 70px!important;
+    }
+    .blog2 h3 {
+        margin-top: 30px;
+        margin-bottom: 14px;
+        margin-right: 80px!important;
+    }
+    .blog3 h3 {
+        margin-top: 30px;
+        margin-bottom: 14px;
+        margin-right: 33px!important;
+    }
+    .blog4 h3 {
+        margin-top: 30px;
+        margin-bottom: 14px;
+        margin-right: 110px!important;
+    }
+
+    .articleImg{
+        display:block!important;
+    }
 
 }
 
@@ -357,6 +398,31 @@
         color: #e3e3e3 !important;
     }
 
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .blog1 h3 {
+        margin-top: 30px;
+        margin-bottom: 14px;
+        margin-right: 122px!important;
+    }
+    .blog2 h3 {
+        margin-top: 30px;
+        margin-bottom: 14px;
+        margin-right: 122px!important;
+    }
+    .blog3 h3 {
+        margin-top: 30px;
+        margin-bottom: 14px;
+        margin-right: 33px!important;
+    }
+    .blog4 h3 {
+        margin-top: 30px;
+        margin-bottom: 14px;
+        margin-right: 172px!important;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
@@ -370,12 +436,97 @@
 
 }
 
-@media only screen and (min-width:560px) {
+@media only screen and (min-width: 1600px) {
+    .accueil {
+        justify-content: space-between;
+    }
+
+    .container-fluid {
+        font-size: 16px;
+    }
+
+    .competences {
+        flex-wrap: nowrap !important;
+    }
+
+    .competence2,
+    .competence3,
+    .competence4 {
+        margin-left: 30px;
+    }
+
+    .projets {
+        flex-wrap: nowrap !important;
+    }
 
     .projet1,
     .projet2,
     .projet3,
     .projet4 {
-        width: 47%;
+        margin-left: 30px;
+    }
+
+    .labs {
+        flex-wrap: nowrap !important;
+    }
+
+    .lab1,
+    .lab2,
+    .lab3 {
+        margin-left: 30px;
+    }
+
+    .logo-icon {
+        width: 70px;
+    }
+
+    .description h1 {
+        width: 600px !important;
+    }
+
+    .img {
+        margin-right: 100px;
+    }
+
+    .navbar-nav {
+        margin-right: 15px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .competences {
+        margin-left: 0px !important;
+    }
+
+    .competence1 {
+        margin-left: 0px;
+
+
+
     }
 }
+
+@media only screen and (min-width: 1920px) {
+    .accueil {
+        justify-content: space-around;
+    }
+
+    .description {
+        width: 47%;
+        margin-left: 15px;
+    }
+
+    .img {
+        margin-right: 100px;
+    }
+
+
+
+
+}}

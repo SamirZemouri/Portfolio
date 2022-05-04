@@ -1,0 +1,96 @@
+.labs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lab1,
+.lab2,
+.lab3,
+.lab4 {
+  position: relative;
+  width: 96%;
+  height: 245px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #2e2a29;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  border: 1px solid #eec567;
+  box-shadow: 0 30px 40px 0 rgb(145 150 203 / 20%);
+}
+
+.LabImages {
+    width: 101%;
+  }
+
+  .lab1 h3 {
+    margin-top: 30px;
+    margin-bottom: 14px;
+  }
+  
+  .lab1 p {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  
+  /*--------------- 2eme section --------------- */
+  
+  .lab2 h3 {
+    margin-top: 20px;
+    margin-bottom: 14px;
+  }
+  
+  .lab2 p {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  
+  /*--------------- 3eme section --------------- */
+  
+  
+  .lab3 h3 {
+    margin-top: 20px;
+    margin-bottom: 14px;
+  }
+  
+  .lab3 p {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  /*--------------- 4eme section --------------- */
+  
+  .lab4 h3 {
+    margin-top: 20px;
+    margin-bottom: 14px;
+  }
+  
+  .lab4 p {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .btn-lab {
+    background-color: transparent;
+    width: 143px;
+    color: #ffd36c !important;
+    border-radius: 500px;
+    border: 2px solid;
+    border-color: #dfb960;
+    padding: 10px 24px;
+  }
+  
+  .btn-lab:hover {
+    background-color: #B6974D;
+    border-color: #B6974D;
+    color: #fff !important;
+  }
+  
+

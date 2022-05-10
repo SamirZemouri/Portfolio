@@ -28,3 +28,15 @@
     justify-content: center;
     color: #c2c1c1 ;
 }
+
+.container-form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}

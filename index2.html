@@ -261,9 +261,9 @@
             </div>
             <div class="container-form">
                 <form action="" method="post">
-                    <input type="text" placeholder="Votre nom">
+                    <input type="text" id="nom" class="text-nom" name="nom" placeholder="Votre nom" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ'-]+$">
 
-                    <input type="email" id="email" class="text-email" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ'-]+$" placeholder="Votre plus belle adresse email">
+                    <input type="email" id="email" class="text-email" name="email" pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$" placeholder="Votre plus belle adresse email">
 
                     <textarea name="submit" class="message" id="msg" maxlength="500" placeholder="Votre message ..."></textarea>
 

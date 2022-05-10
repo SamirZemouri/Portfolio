@@ -10,7 +10,21 @@
 }
 
 .logo-footer{
-    width: 180px;
+    width: 130px;
     margin-top: 120px;
     
+}
+
+.contact h1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 85px 0px 40px 0px;
+}
+
+.contact p {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: #c2c1c1 ;
 }

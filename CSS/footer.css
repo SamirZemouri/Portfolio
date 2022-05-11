@@ -1,5 +1,5 @@
-.section4 {
-    background-color: black;
+.footer {
+    background-color: #292929;
 
 }
 
@@ -11,7 +11,7 @@
 
 .logo-footer{
     width: 130px;
-    margin-top: 120px;
+    margin-top: 100px;
     
 }
 
@@ -19,7 +19,7 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    margin: 85px 0px 40px 0px;
+    margin: 85px 0px 5px 0px;
 }
 
 .contact p {
@@ -80,13 +80,61 @@ textarea::placeholder {
     color: #c2c1c1;
 }
 
-.btn-blog {
-    background-color: #dfb960!important;
+.btn-sub {
+    background-color: #dfb960;
+    width: 143px;
     color: #fff!important;
+    border-radius: 500px;
+    border: 2px solid;
+    border-color: #dfb960;
+    padding: 10px 24px;
+    margin-bottom: 20px;
 }
 
-.btn-blog:active{
+.btn-sub:hover{
+    background-color: #B6974D;
+    border-color: #B6974D;
+}
+
+.btn-sub:active{
     background-color: transparent!important;
     color: #dfb960!important;
 
+}
+
+.reseaux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.logoGit{
+    margin-right: 1.7rem;
+}
+
+.logoGit, .logoLinkedin{
+    cursor: pointer;
+}
+.logoGit:hover, .logoLinkedin:hover{
+    color: #dfb960!important;
+}
+
+.line{
+    width: 200px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid #B6974D;
+}
+
+.copyright{
+    text-align: center;
+    color:#c2c1c1!important;
+    margin-top: 10px;
+}
+.mentions{
+    color: #B6974D!important;
+    text-decoration: none;
 }

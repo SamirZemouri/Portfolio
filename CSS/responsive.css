@@ -57,6 +57,16 @@
         align-items: center!important;
 
     }
+        /*----------------------Formulaire Responsive---------------------- */
+       form{
+        width: unset!important;
+       }
+        input {
+            width: 415px!important;
+        }
+        textarea {
+            width: 415px!important;
+        }
 }
 @media only screen and (min-width: 768px) {
     .avatar {
@@ -178,9 +188,6 @@
         width: 32% !important;
         margin-left: 14px;
     }
-
-
-
 
 }
 
@@ -389,6 +396,11 @@
 
     .articleImg{
         display:block!important;
+    }
+
+    #subbtn{
+        width: 143px!important;
+        align-self: center;
     }
 
 }

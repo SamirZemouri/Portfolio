@@ -39,6 +39,7 @@
 
 .zoom .ImgZoom {
   transition: transform .9s ease;
+  border-radius: 20px!important;
 }
 
 .zoom:hover .ImgZoom {

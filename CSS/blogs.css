@@ -87,7 +87,7 @@
 
 .btn-blog {
     background-color: transparent;
-    width: 143px;
+    /* width: 143px; */
     color: #ffd36c !important;
     border-radius: 500px;
     border: 2px solid;

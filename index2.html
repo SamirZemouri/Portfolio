@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./CSS/labs.css">
     <link rel="stylesheet" href="./CSS/blogs.css">
     <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/modal.css">
     <title>Portfolio Samir Zemouri</title>
 </head>
 
@@ -151,9 +152,36 @@
                     <div class="filtre bg ">
                         <h3 class="content-hover">Au Pera Restaurant</h3>
                         <p class="content-hover">Site restaurant complet avec un back office fonctionnel.</p>
-                        <a class="nav-link active btn-projet content-hover button" href="#">Voir le projet</a>
+
+                        <button data-bs-toggle="modal" data-bs-target="#modal1"
+                            class="nav-link active btn-projet content-hover button">Voir le projet</button>
+
+
+                    </div>
+
+                    <div class="modal fade" id="modal1">
+
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    
+                                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body" aria-describedby="content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque itaque distinctio
+                                        dolores non.
+                                        Numquam, voluptatum! Deleniti, nemo nam! Error id neque cupiditate modi vero
+                                        eveniet eum minima
+                                        beatae voluptatum totam.F</p>
+                                </div>
+                                <div class="modal-footer">
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
                 <div class="projet2 zoom">
                     <img src="./assets/Images/Projet_Github_dark.png" class="ProjetImages ImgZoom"
                         alt="Screenshot de mon projet Github.">
@@ -261,11 +289,14 @@
             </div>
             <div class="container-form">
                 <form action="" method="post" autocomplete="off">
-                    <input type="text" id="nom" class="text-nom" name="nom" placeholder="Votre nom" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ'-]+$">
+                    <input type="text" id="nom" class="text-nom" name="nom" placeholder="Votre nom"
+                        pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ'-]+$">
 
-                    <input type="email" id="email" class="text-email" name="email" pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$" placeholder="Votre adresse email">
+                    <input type="email" id="email" class="text-email" name="email"
+                        pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$" placeholder="Votre adresse email">
 
-                    <textarea name="submit" class="message" id="msg" maxlength="500" placeholder="Votre message ..."></textarea>
+                    <textarea name="submit" class="message" id="msg" maxlength="500"
+                        placeholder="Votre message ..."></textarea>
 
                     <button type="submit" name="submit" id="subbtn" class="btn-sub">Envoyer</button>
                 </form>
@@ -274,20 +305,22 @@
 
         <div class="reseaux">
             <a href="https://github.com/SamirZemouri" target="_blank">
-            <img src="./assets/Images/logo_github.png"class="logoGit" alt="Image du logo de Github.">
+                <img src="./assets/Images/logo_github.png" class="logoGit" alt="Image du logo de Github.">
             </a>
             <a href="https://www.linkedin.com/in/samirzemouri/" target="_blank">
-            <img src="./assets/Images/Logo_linkedin.png" class="logoLinkedin" alt="Image du logo de linkedin.">
+                <img src="./assets/Images/Logo_linkedin.png" class="logoLinkedin" alt="Image du logo de linkedin.">
             </a>
         </div>
         <div class="line"></div>
 
         <p class="copyright">© Samir Zemouri | Tous droits réservés. </p>
         <div class="text-center">
-        <a class="mentions" href="">Mentions légales</a>
+            <a class="mentions" href="">Mentions légales</a>
         </div>
 
     </div>
+
+
 
 
 
@@ -298,6 +331,7 @@
         crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <script src="script.js"></script>
+    <script src="modal.js"></script>
 </body>
 
 </html>

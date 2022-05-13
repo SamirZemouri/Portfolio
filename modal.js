@@ -1,35 +1,26 @@
-$('.button').click(function(){
-    var buttonId = $(this).attr('id');
-    $('#modal-container').removeAttr('class').addClass(buttonId);
-    $('body').addClass('modal-active');
-  })
-  
-  $('#modal-container').click(function(){
-    $(this).addClass('out');
-    $('body').removeClass('modal-active');
-  });
-  
-  
-  
-  
+// Get DOM Elements
+const modal = document.querySelector('#my-modal');
+const modalBtn = document.querySelector('#modal-btn');
+const closeBtn = document.querySelector('.close');
 
+// Events
+modalBtn.addEventListener('click', openModal);
+closeBtn.addEventListener('click', closeModal);
+window.addEventListener('click', outsideClick);
 
+// Open
+function openModal() {
+  modal.style.display = 'block';
+}
 
-  
-  
-  // let modal = document.querySelectorAll('.button');
+// Close
+function closeModal() {
+  modal.style.display = 'none';
+}
 
-// modal.addEventListener('click', function () {
-//     let buttonId = document.querySelectorAll(this).attr('id');
-//     document.querySelectorAll('#modal-container').removeAttr('class').addClass(buttonId);
-//     document.querySelectorAll('body').addClass('modal-active');
-// })
-
-// let containModal = document.querySelectorAll('#modal-container');
-
-// containModal.addEventListener('click', function() {
-
-
-
-
-// })
+// Close If Outside Click
+function outsideClick(e) {
+  if (e.target == modal) {
+    modal.style.display = 'none';
+  }
+}

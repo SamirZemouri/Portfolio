@@ -1,10 +1,53 @@
+.btn-close {
+background: transparent url(../assets/Images/close_modal\ \(2\).png);
+}
+
+.modal-header .btn-close {
+    padding: 0.25em 0.25em;
+    margin: -1.5rem 0.7rem -0.5rem auto;
+}
+
 .modal-dialog{
     height: 100%;
     margin: 0;
 }
 .modal-content{
     height: 100%;
+    background-color: #2e2a29;
 }
 .modal-header{
-    background-image: ;
+    background-image: url(../assets/Images/Modal_restaurant.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: unset;
+    height: 150px;
+    position: relative;
+    padding: 0;
+    border-bottom: 1px solid #dfb960;
+
 }
+
+.modal-filtre {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(10deg, rgba(0, 0, 0, 0.7), rgba(63, 63, 63, 0.5));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.modal-title {
+    margin: 0!important;
+
+
+}
+.modal-description{
+    margin-bottom: 0;
+}
+
+.modal-body p {
+    color: #c2c1c1;
+}
+

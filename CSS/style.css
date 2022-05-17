@@ -9,6 +9,9 @@ h3 {
   font-size: 1.5rem;
 }
 
+h6 {
+  font-weight:400;
+}
 .section1 {
   background: url(../assets/Images/Background/BG2.jpg);
   margin: 0;

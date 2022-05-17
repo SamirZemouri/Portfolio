@@ -52,15 +52,18 @@ background: transparent url(../assets/Images/close_modal\ \(2\).png);
     font-size: 15px;
     font-weight: 300;
     color: #c2c1c1;
+    margin-bottom: 15px;
 }
 
 ul {
     margin: 0;
     padding-left: 1rem;
+        margin-bottom: 15px;
 }
 li {
     padding: 0;
     font-size: 15px;
     font-weight: 300;
     color: #c2c1c1;
+
 }
